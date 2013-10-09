@@ -1,0 +1,35 @@
+Atari800 emulator version 1.3.2 for os/2
+-------------------------------
+
+This is the entire cvs for Atari800 emulator as of July 1st, 2004 so
+it is version 1.3.2 with any features or fixes that were added to cvs
+as of that date.
+
+Due to what I think are some minor problems in the os/2 port of autoconf,
+I had to edit the configure script after it was generated but you should
+not need to run it again. I also edited the makefile so proper X11 compile
+parameters were included.
+
+There is also an included executable that will need a X11 server (I use
+the PMX server from IBM), proper ROM image files, and whatever disk image
+files you want to use. they usually have ATR or XFD extention. The OS Rom
+Image file can be obtained from Atari800's homepage. Disk images (ATR files)
+can be found by using http://www.newbreedsoftware.com/xlsearch/search/
+
+Be sure to have X11.dll in libpath and have the display env. variable set
+properly. All other info on usage is in DOC\USAGE. I suggest reading all
+the docs there.
+
+There is presently no sound in the OS/2 port of this emulator. Maybe in the
+future if I find the time.
+
+All source code and makefiles are included so feel free to add or change.
+
+Questions about the OS/2 build should be directed to me at
+kenames@pacbell.net
+
+
+Project homepage: http://atari800.sourceforge.net/
+
+Ken
+
